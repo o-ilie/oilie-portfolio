@@ -130,19 +130,19 @@ body {
   }
   
   .css-typing p:nth-child(1) {
-    width: 10.2em;
+    width: 10.2rem;
     animation: type 2s steps(40, end), blink .25s step-end infinite alternate;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(2) {
-    width: 6.2em;
+    width: 6.2rem;
     opacity: 0;
     animation: type 2s steps(40, end), blink .25s step-end infinite alternate;
     animation-delay: 2s;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(3) {
-    width: 18.2em;
+    width: 18.2rem;
     opacity: 0;
     animation: type3 2s steps(40, end), blink .25s step-end infinite alternate;
     animation-delay: 4s;
