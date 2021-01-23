@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <script src="https://kit.fontawesome.com/26adbdbf7f.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700;900&display=swap" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="img/coding.svg" />
+
+        <title> oilie - Portfolio</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo">
+                    <a href="#home"> <i class="fas fa-laptop-code"></i>oilie</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#portfolio" class="menu-btn">Portfolio</a></li>
+                    <li><a href="#contact" class="menu-btn">Contact</a></li>
+                </ul>
+
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- home section start -->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-container">
+                    <div class="stand">
+                        <div class="monitor">
+                            <div class="home-content css-typing">                   
+                                <p class="text-1">Hello, my name is</p>
+                                <p class="text-2">Ilie Ioana</p>
+                                <p class="text-3">Junior Front-End Web Developer</p>
+                                <img src="img/img.svg" alt="Hello">
+                            </div>   
+                        </div>                      
+                    </div>
+                </div>                
+            </div>
+        </section>
+
+        <!-- about section start -->
+
+        <section class="about" id="about">
+            <div class="max-width">                
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="img/about.svg" alt="About ">
+                    </div>
+
+                    <div class="column right">
+                        <h2 class="title">About me</h2>
+                        <div class="text">
+                            I started to study web development in June 2020, on BitAcademy. 
+                            Now I want to focus on improving my skills with CSS and JavaScript and 
+                            learning React. Right now my main goal is to find a job that will give me an opportunity to improve my programming skills.
+                        </div>
+                        <a href="Documents/ProfileIlieIoana.pdf" download="My resume" target="_blank">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section start -->
+
+        <section class="portfolio" id="portfolio">
+            <div class="max-width">
+                <h2 class="title">Portfolio</h2>
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/Template.PNG" alt="Template site">
+                            <div class="text">
+                                <span>HTML&CSS</span>
+                            </div>
+                            <div class="portfolio-link">
+                                <a href="https://template-website-ilie-ioana.vercel.app/" target="_blank">View Site</a>
+                                <a href="https://github.com/oana271996/HTML-CSS-template-website.git" target="_blank">View GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/Artboard.png" alt="Photoshop design">
+                            <div class="text">
+                                <span>Photoshop</span>
+                            </div>
+                            <div class="portfolio-link">
+                                <a href="https://github.com/oana271996/Photoshop.git" target="_blank">Download PSD</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/calculator.png" alt="Javascript Project">
+                            <div class="text">
+                                <span>HTML&CSS</span>
+                                <span>Javascript</span> 
+                            </div>
+                            <div class="portfolio-link">
+                                <a href="https://js-calculator-nine.vercel.app/calculator.html" target="_blank">View Site</a>
+                                <a href="https://github.com/oana271996/JS-calculator.git" target="_blank">View GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/Capture.png" alt="Simple booking card">
+                            <div class="text">
+                                <span>HTML & CSS</span>
+                            </div>
+                            <div class="portfolio-link">
+                                <a href="https://chat-app-css-illustration-murex.vercel.app/" target="_blank">View Site</a>
+                                <a href="https://github.com/oana271996/Chat-app-CSS-illustration.git" target="_blank">View GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact section start -->
+
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">
+                    Let's work <span>together</span>
+                    <br>Just send me email here
+                </h2>
+
+                <form action="mailto:ilie.oana27@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" id="name" name="name" placeholder="Name" required/>
+                    <input type="email" id="email" name="email" placeholder="Email" required />
+                    <textarea name="message" rows="7" placeholder="Message" required></textarea>
+                    <button type="submit">Send message</button>                   
+                </form>
+
+                <img src="img/message.svg" alt="Send">
+            </div>
+        </section>
+
+        <!--contact footer start -->       
+        
+        <footer class="footer">
+            <div class="max-width">
+                <div class="logo">
+                    <a href="#home"> <i class="fas fa-laptop-code"></i>oilie</a>
+                </div>
+                <div class="website-rights">
+                    oilie © 2021 All rights reserved.
+                </div>
+                <div class="social-media">
+                    <a rel="nofollow" href="https://github.com/oana271996" target="_blank" aria-label="Github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a rel="nofollow" href="https://www.linkedin.com/in/ioana-ilie-61671b174/" target="_blank" aria-label="Linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a rel="nofollow" href="https://www.facebook.com/ioana.ilie.9216778/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>                
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
