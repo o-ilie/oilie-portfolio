@@ -130,21 +130,21 @@ body {
   
   .css-typing p:nth-child(1) {
     width: 10.2em;
-    animation: type 2s steps(40, end);
+    animation: type 1.5s steps(40, end);
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(2) {
     width: 6.2em;
     opacity: 0;
-    animation: type 2s steps(40, end);
-    animation-delay: 2s;
+    animation: type 1.5s steps(40, end);
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(3) {
     width: 18.2em;
     opacity: 0;
-    animation: type3 2s steps(40, end);
-    animation-delay: 4s;
+    animation: type 1.5s steps(40, end);
+    animation-delay: 3s;
     animation-fill-mode: forwards;
   }
   
