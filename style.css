@@ -124,7 +124,6 @@ body {
 /*start typing effect*/
 
 .css-typing p {
-    border-right: .3rem solid #9B7EDE;
     white-space: nowrap;
     overflow: hidden;
   }
@@ -153,9 +152,6 @@ body {
     1% {
         opacity: 1;
     }
-    99.9% {
-        border-right: .3rem solid #9B7EDE;
-    }
     100% {
         opacity: 1;
         border: none;
@@ -168,9 +164,6 @@ body {
     }
     1% {
         opacity: 1;
-    }
-    99.9% {
-      border-right: .3rem solid #9B7EDE;
     }
     100% {
       opacity: 1;
